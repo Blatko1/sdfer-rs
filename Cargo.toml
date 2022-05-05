@@ -3,14 +3,14 @@ name = "sdfer-rs"
 authors = ["Leon (Blatko1)"]
 version = "0.1.0"
 edition = "2021"
-description = "Simple library for rendering text"
+description = "Fast text renderer for 2D/3D projections with M/SDFs"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Blatko1/sdfer-rs"
 keywords = ["text", "msdf", "font", "ttf", "render"]
 categories = ["rendering"]
-resolver = "2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+glyph_brush_layout = "0.2.3"
